@@ -1,0 +1,471 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.navbar-brand {
+  font-size: 14px !important;
+  color: white !important;
+}
+.nav-item a {
+  color: white !important;
+  margin-left: 50px;
+  font-size: 18px !important;
+}
+.navbar-main {
+  width: 100%;
+  height: 462px;
+  background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+  background-size: cover;
+  background-position: center;
+}
+.modal-body a {
+  color: #333333;
+  text-decoration: none;
+  line-height: 40px;
+}
+.nav-content .h-description h1 {
+  color: white;
+  font-size: 36px;
+}
+
+.discover-text {
+  font-size: 38px;
+  color: #ffffff;
+  margin: 40px;
+  font-family: sans-serif;
+}
+.nav-search {
+  width: 720px;
+  height: 54px;
+  background-color: #ffffff;
+  color: #333333ae;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+.bar {
+  margin: 10px;
+}
+.input-part {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+}
+.input-text {
+  border: none;
+  border: transparent;
+  width: 340px;
+  height: 52px;
+  margin-left: 5px;
+}
+input:focus {
+  outline: none;
+}
+.nav-location {
+  height: 45px;
+}
+.icon-location {
+  width: 20px;
+  height: 20px;
+  margin-left: 18px;
+  margin-right: 3px;
+  color: rgba(255, 0, 0, 0.399);
+  font-size: 20px;
+}
+
+.three-card-section {
+  margin-top: 40px;
+}
+
+.three-card-section .card1 .card-content {
+  height: 83px;
+  width: 350px;
+  margin-top: -30px;
+  background-color: white;
+  padding: 15px 20px 16px;
+  border-left: 1px solid rgba(0, 0, 0, 0.169);
+  border-right: 1px solid rgba(0, 0, 0, 0.169);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.169);
+  border-radius: 0px 0px 10px 10px;
+}
+.three-card-section .card1 .card-content h6 {
+  font-size: 20px;
+  color: #363636;
+  /* font-weight: 550; */
+}
+.three-card-section .card1 .card-content p {
+  font-size: 16px;
+  color: #4f4f4f;
+}
+.three-card-section .card1 {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid rgba(0, 0, 0, 0.169); */
+  border-radius: 10px;
+}
+.card-image {
+  width: 350px;
+  height: 192px;
+  background-image: url(https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card-image2 {
+  width: 350px;
+  height: 192px;
+  background-image: url(https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0px 0px;
+}
+.card-image3 {
+  width: 350px;
+  height: 192px;
+  background-image: url(https://b.zmtcdn.com/data/o2_assets/371de657644f1b5818fcb5d83387c8c91722851940.png?output-format=webp&fit=around|402:360&crop=402:360;*,*);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card-section .card-heding h2 {
+  font-size: 36px;
+  color: #1c1c1c;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card-section .heading-description p {
+  color: #363636ca;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.card-section .heading-description a {
+  text-decoration: none;
+  color: #ff7e8b;
+  font-size: 18px;
+}
+.collection-none a {
+  text-decoration: none;
+  color: #ff7e8b;
+  font-size: 18px;
+}
+.collection-none a span {
+  font-weight: 800;
+}
+.p-card1-image {
+  width: 267.5px;
+  height: 320px;
+  background-image: url(./images/zomato-open.jpeg);
+  background-position: center;
+  border-radius: 8px;
+}
+.p-card2-image {
+  width: 267.5px;
+  height: 320px;
+  background-image: url(./images/worth-insta.jpeg);
+  background-position: center;
+  border-radius: 8px;
+}
+
+.p-card3-image {
+  width: 267.5px;
+  height: 320px;
+  background-image: url(./images/zomato-india.jpeg);
+  background-position: center;
+  border-radius: 8px;
+}
+.p-card4-image {
+  width: 267.5px;
+  height: 320px;
+  background-image: url(./images/zomato-best-buffet.jpeg);
+  background-position: center;
+  border-radius: 8px;
+}
+
+.p-description2 {
+  text-align: end;
+}
+
+.loca-heading p {
+  font-size: 35px;
+  color: #363636;
+}
+
+/* popular localities */
+.main-popular {
+  width: 356px;
+  height: 78.33px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 10px;
+}
+.po-content {
+  padding: 12px 15px;
+  height: 78.33px;
+}
+.po-content h5 {
+  font-size: 20px;
+  color: #1c1c1c;
+}
+.po-content p {
+  font-size: 16px;
+}
+/* popular localities */
+
+.get-app-section {
+  width: 100%;
+  height: 480px;
+  background-color: #fffbf7;
+}
+
+/*---------footer---------*/
+.footer {
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f8;
+  padding: 50px;
+}
+
+.zomato-header {
+  width: 100%;
+}
+.language-selection {
+  width: 122px !important;
+  height: 37px;
+}
+.country-selection {
+  width: 122px !important;
+  height: 37px;
+}
+.link-1 {
+  margin-top: 15px;
+  line-height: 12px;
+  margin-top: 30px;
+}
+.link-1 p {
+  font-size: 14px;
+  color: #696969;
+  /* margin-top: 20px; */
+}
+.social-link {
+  font-size: 20px;
+  /* text-align: center; */
+  /* margin-top: 15px; */
+}
+
+.link-1 h6 {
+  margin-bottom: 18px;
+  /* background-color: #1c376c; */
+}
+
+/* footer */
+
+/* mediaQuery */
+
+@media only screen and (min-width: 992px) and (max-width: 1400px) {
+  /* navbar */
+  .navbar button {
+    display: none;
+  }
+  /* navbar */
+
+  .main-popular{
+    width: 100%; 
+  }
+
+  /* footer */
+
+  .f-link .row {
+    justify-content: space-between;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* navbar */
+  .navbar button {
+    display: none;
+  }
+  .nav-content .h-description h1 {
+    width: 540px;
+    text-align: center;
+  }
+  /* navbar */
+  /* three-card-section */
+  .card-image,
+  .card-image2,
+  .card-image3 {
+    width: 348px;
+  }
+  /* three-card-section */
+
+  .card-section .heading-description p{
+    font-size: 18px
+  }
+  .card-section .heading-description a{
+    font-size: 16px
+  }
+
+  .main-popular{
+    width: 100%; 
+  }
+
+  .app-content1 img{
+    width: 354px;
+    height: 400px;
+
+  }
+  .col-auto button{
+    padding: 6px 16px;
+  }
+
+  .app-content2 h2{
+    font-size: 30px !important;
+  }
+  .link-1 h6{
+    font-size: 14px;
+  }
+
+
+}
+@media only screen and (max-width: 576px) {
+  /* navbar */
+  .nav-content .h-description h1 {
+    width: 280px;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -30px;
+  }
+  .nav-content .nav-heading img {
+    width: 150px;
+    height: 35px;
+  }
+  .button-me {
+    border: transparent;
+    padding: 10px;
+    background-color: transparent;
+  }
+  .navbar button {
+    display: none;
+  }
+  .bar {
+    display: none;
+  }
+  .input-part {
+    width: 300px;
+    height: 45px;
+  }
+  .search-bar {
+    width: 300px;
+    height: 45px !important;
+    margin-top: 20px;
+  }
+  .nav-location {
+    height: 45px;
+  }
+  .input-text {
+    width: 300px;
+  }
+  .nav-search {
+    width: 375px;
+    height: 135px;
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+  }
+  /* navbar */
+  /* three-card-section */
+  .card1{
+    width: 100%;
+  }
+  .card-image, .card-image2{
+    width: 100%;
+    /* height: 40%; */
+  }
+  .card-content{
+    width: 100% !important;
+  }
+  .card-content h6{
+    font-size: 8px;
+  }
+  .card-content p{
+    font-size: 10px !important;
+  }
+  .card-image3{
+    width: 47%;
+    height: 130px !important;
+  }
+  .card-image2{
+    height: 130px !important;
+  }
+  .card-image{
+    height: 130px !important;
+  }
+  .card3 .card1  .card-content{
+    width: 47% !important;
+  }
+  /* three-card-section */
+  .p-card1-image, .p-card2-image, .p-card3-image, .p-card4-image{
+    width:158.67px;
+    height: 200px !important;
+  }
+  .card-section .card-heding h2{
+    font-size: 20px;
+  }
+  .card-content h6{
+    font-size: 14px !important;
+  }
+  .card-content p{
+    font-size: 12px !important;
+  }
+  .card-section .heading-description p{
+    font-size: 10px
+  }
+  .card-section .heading-description a{
+    display: none;
+  }
+
+  .loca-heading p{
+    font-size: 17.5px !important;
+    margin-bottom: 15px;
+  }
+  
+  .main-popular{
+    width: 100%; 
+  }
+  .app-content1{
+    display: none;
+  }
+
+  .app-content2 h2{
+    text-align: center;
+    font-size: 30px !important;
+  }
+  .app-content2 p{
+    text-align: center;
+    line-height: 25px !important;
+  }
+
+
+  .radio{
+    justify-content: center;
+  }
+  .download-app{
+    display: flex;
+    justify-content: center;
+  }
+  .input-password{
+    justify-content: center;
+  }
+  /* footer */
+
+
+
+  
+}
